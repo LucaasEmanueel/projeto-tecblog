@@ -24,6 +24,36 @@ body{
 	padding: 10px;
 }
 
+#area-principal{
+	width: 920px;
+	margin: auto;
+
+}
+
+#area-postagens, #area-lateral{
+	background: orange; 
+}
+#area-postagens{
+	width: 660px;
+	float: left;
+}
+
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+#rodape{ 
+	background: #CCC;
+	text-align: center;
+	padding: 15px;
+	clear: both;
+}
 /* Formatação do menu*/
 
 a{
@@ -36,7 +66,6 @@ a:link, a:visited{
 
 a:hover{
 	background: #fff;
-	
 	color: #f7b600;
 }
 
